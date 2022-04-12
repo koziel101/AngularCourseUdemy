@@ -20,4 +20,5 @@ npm cache clean --force
 sudo npm install -g @angular/cli
 
 
+if nothing works:
 npm install --legacy-peer-deps
