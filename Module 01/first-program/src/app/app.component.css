@@ -1,0 +1,6 @@
+/* To Add Bootstrap:
+npm install --save bootstrap@3
+In angular.json:
+under "architect">"build">"styles"
+"node_modules/bootstrap/dist/css/bootstrap.min.css"
+*/
