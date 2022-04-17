@@ -6,11 +6,11 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./server-element.component.css']
 })
 export class ServerElementComponent implements OnInit {
-  @Input() element: { type: string, name: string, content: string };
+  // @Input passes data from the component to another one (element from .ts is public to be used in another component's .html)
+  @Input('srvElement') element: { type: string, name: string, content: string };
 
   constructor() { }
 
   ngOnInit(): void {
   }
-
 }
